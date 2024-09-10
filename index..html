@@ -20,7 +20,23 @@
         margin: 20px auto;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         position: relative;
+        background-color: #e6ffe6; 
       }
+
+      .input-field {
+        text-align: center;
+        width: 100%; /* adjust based on the space */
+        height: auto;
+        border-top: none;
+        background-color: #ffffe0;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px dotted #000;
+        outline: none;
+}
+input{
+  background-color: transparent;
+}
 
       #imgbackLogo {
         opacity: 0.1;
@@ -38,19 +54,19 @@
             border: 1px solid black;
             margin-left: -0.95rem;
             border-radius: 5px;
-            /* padding-left: 20px; */
             width: 100%;
             border-color:#000000e4;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            background-color: #f5fffa;
         }
 
         legend {
           margin-top: 1rem;
             border-color:#000000e4;
-            border-radius: 5px;
+            border-radius: 10px;
             padding-left: 1rem;
             padding-right: 1rem;
             border: 1px solid black;
@@ -60,6 +76,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            background-color: #f0f0f0;
         }
     </style>
   </head>
@@ -145,7 +162,7 @@
         </div>
 <div class="row" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
   <legend> <h3></h3>
-    <b>शाला स्थानांतरण प्रमाण पत्</b>
+    <b>शाला स्थानांतरण प्रमाण पत्र</b>
   </h3></legend>
 </div>
        
@@ -610,8 +627,9 @@
                 कक्षाध्यापक
               </div>
               <div class="name-space">
-                <input
+                <input class="bgColor"
                   style="
+               
                     text-align: center;
                     width:130mm;
                     height: auto;
@@ -638,7 +656,7 @@
                 दिनांक: 09/09/2024
               </div>
               <div class="name-space">
-                <input
+                <input class="bgColor"
                   style="
                     text-align: center;
                     width:125mm;
@@ -667,8 +685,8 @@
                 Print Date 09/09/2024 12:65-03
               </div>
               <div class="name-space">
-                <input
-                  style="
+                <input class="bgColor"
+                  style=" 
                     text-align: center;
                     width:90mm;
                     height: auto; 
