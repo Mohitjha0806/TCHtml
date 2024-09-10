@@ -34,6 +34,33 @@
         justify-content: center;
         flex-direction: row;
       }
+      fieldset {
+            border: 1px solid black;
+            margin-left: -0.95rem;
+            border-radius: 5px;
+            /* padding-left: 20px; */
+            width: 100%;
+            border-color:#000000e4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        legend {
+          margin-top: 1rem;
+            border-color:#000000e4;
+            border-radius: 5px;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border: 1px solid black;
+            width: 50mm;
+            font-size:1rem;
+            font-weight:600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     </style>
   </head>
   <body>
@@ -78,9 +105,7 @@
           <p style="padding-top: 0.4rem; margin: 0">
             स्कूल डाइस कोड: 20203020213
           </p>
-          <h3>
-            <b><u>शाला स्थानांतरण प्रमाण पत्</u></b>
-          </h3>
+         
         </div>
         <div
           class="box3"
@@ -118,116 +143,552 @@
             <h5>&nbsp;&nbsp;  क्रमांक: NA</h5>
           </div>
         </div>
+<div class="row" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+  <legend> <h3></h3>
+    <b>शाला स्थानांतरण प्रमाण पत्</b>
+  </h3></legend>
+</div>
+       
+
+        <fieldset style="margin-top: 1.7rem; padding-bottom: 2rem;">
+          
+            <div class="row" style="margin-top: 2rem; width: 210mm; height: auto; display: flex">
+              <div class="name" style="width: 95mm; height: auto">
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; प्रमाणित किया जाता है कि श्री/कुमारी
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width: 121mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: none;
+                  "
+                  type="text"
+                  value="Name"
+                />
+              </div>
+            </div>
+    
+    
+            <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
+              <div class="name" style="width: 125mm; height: auto">
+                पिता का नाम श्री
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:105mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: none;
+                  "
+                  type="text"
+                  value="Father Name"
+                />
+              </div>
+    
+              <div class="name" style="width: 45mm; height: auto; margin-left: 10mm;">
+                जाति
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:50mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: none;
+                  "
+                  type="text"
+                  value="EWS"
+                />
+              </div>
+            </div>
+    
+    
+            <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
+              <div class="name" style="width: 171mm; height: auto">
+                माता का नाम श्रीमती
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:95mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: none;
+                    margin-left: 1rem;
+                  "
+                  type="text"
+                  value="Mother's Name"
+                />
+              </div>
+    
+              <div class="name" style="width: 98mm; height: auto; margin-left: 10mm;">
+                मातृभाषा
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:40mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: none;
+                  "
+                  type="text"
+                  value="Hindi"
+                />
+              </div>
+            </div>
+
+            <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
+              <div class="name" style="width: 95mm; height: auto">
+                शाला का नाम
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:180mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: none;
+                  "
+                  type="text"
+                  value="Class name"
+                />
+              </div>
+            </div>
 
 
-        <div class="row" style="margin-top: 2rem; width: 210mm; height: auto; display: flex">
-          <div class="name" style="width: 95mm; height: auto">
-            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; प्रमाणित किया जाता है कि श्री/कुमारी
-          </div>
-          <div class="name-space">
-            <input
-              style="
-                text-align: center;
-                width: 121mm;
-                height: auto;
-                border-top: none;
-                border-left: none;
-                border-right: none;
-                border-bottom: 1px dotted;
-                outline: none;
-              "
-              type="text"
-              value="Name"
-            />
-          </div>
-        </div>
+    
+            <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
+              <div class="name" style="width: 135mm; height: auto">
+                विकास खण्ड का नाम
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:89mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: Indore;
+                    margin-left: -2rem;
+                  "
+                  type="text"
+                  value="Mother's Name"
+                />
+              </div>
+    
+              <div class="name" style="width: 80mm; height: auto; margin-left: 5mm;">
+                जिला का नाम
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:45mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: none;
+                  "
+                  type="text"
+                  value="Indore"
+                />
+              </div>
+            </div>
 
 
-        <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
-          <div class="name" style="width: 125mm; height: auto">
-            पिता का नाम श्री
-          </div>
-          <div class="name-space">
-            <input
-              style="
-                text-align: center;
-                width:105mm;
-                height: auto;
-                border-top: none;
-                border-left: none;
-                border-right: none;
-                border-bottom: 1px dotted;
-                outline: none;
-              "
-              type="text"
-              value="Father Name"
-            />
-          </div>
 
-          <div class="name" style="width: 45mm; height: auto; margin-left: 10mm;">
-            जाति
-          </div>
-          <div class="name-space">
-            <input
-              style="
-                text-align: center;
-                width:50mm;
-                height: auto;
-                border-top: none;
-                border-left: none;
-                border-right: none;
-                border-bottom: 1px dotted;
-                outline: none;
-              "
-              type="text"
-              value="EWS"
-            />
-          </div>
-        </div>
+            <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
+              <div class="name" style="width: 135mm; height: auto">
+                में तारीख
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:105mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: Indore;
+                    margin-left: -2rem;
+                  "
+                  type="text"
+                  value="09/10/2024"
+                />
+              </div>
+    
+              <div class="name" style="width: 45mm; height: auto; margin-left: 5mm;">
+                से
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:60mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: none;
+                  "
+                  type="text"
+                  value="Indore"
+                />
+              </div>
+              <div class="name" style="width: 20mm; height: auto; margin-left: 5mm;">
+                Tak
+              </div>
+            </div>
 
 
-        <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
-          <div class="name" style="width: 145mm; height: auto">
-            माता का नाम श्रीमती
-          </div>
-          <div class="name-space">
-            <input
-              style="
-                text-align: center;
-                width:94mm;
-                height: auto;
-                border-top: none;
-                border-left: none;
-                border-right: none;
-                border-bottom: 1px dotted;
-                outline: none;
-              "
-              type="text"
-              value="Mother's Name"
-            />
-          </div>
 
-          <div class="name" style="width: 80mm; height: auto; margin-left: 10mm;">
-            मातृभाषा
-          </div>
-          <div class="name-space">
-            <input
-              style="
-                text-align: center;
-                width:45mm;
-                height: auto;
-                border-top: none;
-                border-left: none;
-                border-right: none;
-                border-bottom: 1px dotted;
-                outline: none;
-              "
-              type="text"
-              value="Hindi"
-            />
-          </div>
-        </div>
 
+            <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
+              <div class="name" style="width: 135mm; height: auto">
+                उपस्थित रहा / रही ओर अब आज तारीख
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:68mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: Indore;
+                    margin-left: -2rem;
+                  "
+                  type="text"
+                  value="09/10/2024"
+                />
+              </div>
+    
+              <div class="name" style="width: 90mm; height: auto; margin-left: 5mm;">
+                ko shala chodta chodti hai 
+              </div>
+            </div>
+
+
+            <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
+              <div class="name" style="width: 92mm; height: auto">
+                शाला में प्रवेश पंजी क्रमांक
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:95mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: Indore;
+                    /* margin-left: 1rem; */
+                  "
+                  type="text"
+                  value="09/10/2024"
+                />
+              </div>
+    
+              <div class="name" style="width: 105mm; height: auto; margin-left: 1rem;">
+                ke anusaarunki janamtarik
+              </div>
+            </div>
+
+
+
+            <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
+              <div class="name" style="width: 60mm; height: auto;">
+                (अंको मे)
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:45mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: Indore;
+                  "
+                  type="text"
+                  value="123"
+                />
+              </div>
+    
+              <div class="name" style="width: 90mm; height: auto; margin-left: 5mm;">
+               shabdo me
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:102mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: none;
+                  "
+                  type="text"
+                  value="One Two Three"
+                />
+              </div>
+              <div class="name" style="width: 10mm; height: auto; margin-left:3mm;">
+                है।
+              </div>
+            </div>
+
+            <div class="row" style="padding: 2rem 0; width: 210mm; height: auto; display: flex">
+              Note:- उसको टीका लगाया जा चुका हैं या अन्यथा चेचक के प्रकोप से सुरक्षित है। उसके द्वारा उत्तीर्ण वार्षिक कक्षौन्नति परीक्षा इस प्रकार
+            </div>
+
+
+            <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
+              <div class="name" style="width: 30mm; height: auto;">
+                कक्षा
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:50mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: Indore;
+                    margin-left: 1rem;
+                  "
+                  type="text"
+                  value="7Th Class"
+                />
+              </div>
+    
+              <div class="name" style="width: 35mm; height: auto; margin-left: 5mm;">
+                माध्यम
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:55mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: none;
+                    margin-left: 1rem;
+                  "
+                  type="text"
+                  value="CBSC"
+                />
+              </div>
+              <div class="name" style="width: 50mm; height: auto; margin-left:3mm;">
+                वर्ष 
+              </div>
+
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:55mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: none;
+                  "
+                  type="text"
+                  value="2024"
+                />
+              </div>
+            </div>
+
+
+            <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
+              <div class="name" style="width: 72mm; height: auto">
+                छात्र को कक्षा
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:142mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: Indore;
+                  "
+                  type="text"
+                  value="Class-7"
+                />
+              </div>
+    
+              <div class="name" style="width: 105mm; height: auto; margin-left: 1rem;">
+                में प्रवेश दिया गया था
+              </div>
+            </div>
+
+            <div class="row" style="margin-top: 1rem; width: 210mm; height: auto; display: flex">
+              <div class="name" style="width: 78mm; height: auto">
+                उसका आचरण
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:170mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px dotted;
+                    outline: Indore;
+                  "
+                  type="text"
+                  value="Class-7"
+                />
+              </div>
+    
+              <div class="name" style="width: 10mm; height: auto; margin-left: 1rem;">
+                था
+              </div>
+            </div>
+            
+          </fieldset>
+
+            <div class="row" style="margin-top: 4rem; width: 210mm; height: auto; display: flex;">
+              <div class="name" style="width: 87mm; height: auto">
+                कक्षाध्यापक
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:130mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: none;
+                    outline: Indore;
+                  "
+                  type="text"
+                  value=""
+                />
+              </div>
+    
+              <div class="name" style="width: 100mm; height: auto; margin-left: 1rem;">
+                प्राचार्य / प्रधानाध्यापक
+              </div>
+            </div>
+
+
+
+            <div class="row" style=" margin-top: 1rem; margin-bottom: 2rem; width: 210mm; height: auto; display: flex;">
+              <div class="name" style="width: 140mm; height: auto">
+                दिनांक: 09/09/2024
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:125mm;
+                    height: auto;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: none;
+                    outline: Indore;
+                  "
+                  type="text"
+                  value=""
+                />
+              </div>
+    
+
+
+              <div class="name" style="width: 170mm; height: auto; margin-left: 2rem; text-align: center;">
+                Test 02 Convent <br> Indore  URBAN-1, Indore
+              </div>
+            </div>
+
+            
+            <div class="row" style=" margin-top: 5rem; font-size: 0.6rem;  width: 210mm; height: auto; display: flex;">
+              <div class="name" style="width: 200mm; height: auto">
+                Print Date 09/09/2024 12:65-03
+              </div>
+              <div class="name-space">
+                <input
+                  style="
+                    text-align: center;
+                    width:90mm;
+                    height: auto; 
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: none;
+                    outline: Indore;
+                  "
+                  type="text"
+                  value=""
+                />
+              </div>
+    
+
+              
+              <div class="name" style="width: 30mm; height: auto; margin-left: 3rem; text-align: center;">
+               Print IP ::]
+              </div>
+            </div>
 
 
       </main>
