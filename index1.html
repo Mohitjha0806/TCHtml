@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+        width: 100%;
+        height: 100%;
+        background-color: #f3f3f3;
+      }
+      .certificate-container {
+        width: 210mm;
+        height: 297mm;
+        padding: 30px;
+        border: 2px solid #000;
+        margin: 20px auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        position: relative;
+      }
+      #imgbackLogo {
+        opacity: 0.1;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+      legend {
+        filter: drop-shadow(1px 1px 12px rgb(215, 215, 215));
+      }
+
+      fieldset {
+        border: 1px solid black;
+        margin-left: -0.95rem;
+        border-radius: 5px;
+        width: 100%;
+        border-color: #000000e4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #f5fffa;
+      }
+
+      legend {
+        margin-top: 1rem;
+        border-color: #000000e4;
+        border-radius: 10px;
+        padding-left: 1rem 1rem;
+        border: 1px solid black;
+        width: 50mm;
+        font-size: 1rem;
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        color: #000000;
+      }
+    </style>
+    <link rel="stylesheet" href="./Assets/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="certificate-container p-0 m-0">
+      <img
+        id="imgbackLogo"
+        class="d-flex align-items-center justify-content-center"
+        style="z-index: +1;  position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);"
+        src="./pngegg.png"
+        alt=""
+      />
+      <div class="container-fluid p-0 m-0">
+        <div class="row align-items-center p-0 m-0 mt-1 py-2">
+          <div class="col-2 justify-content-center align-items-center mt-1">
+            <img
+              style="width: 6.5rem"
+              height="auto"
+              src="./pngegg.png"
+              alt=""
+            />
+          </div>
+          <div class="col-8 text-center p-0 m-0">
+            <h3>Test 02 Convent</h3>
+            <h5>Indore URBAN-1, Indore</h5>
+            <h5>स्कूल डाइस कोड: 20203020213</h5>
+          </div>
+          <div class="col-2 justify-content-center align-items-center mt-1">
+            <img style="width: 6.5rem" height="auto" src="./QR.png" alt="" />
+          </div>
+        </div>
+        <div class="row align-items-center p-0 m-0 justify-content-center py-4">
+          <legend style="width: auto" class="h4 py-2 px-4 text-dark">
+            शाला स्थानांतरण प्रमाण पत्र
+          </legend>
+        </div>
+        <div
+          class="row align-items-center p-0 m-0 justify-content-center py-4"
+        ></div>
+        <div class="container">
+          <h6 class="fs-6 fw-semibold">क्रमांक: NA</h6>
+
+
+          <div class="row" style="margin-top: 2rem; width: 210mm; height: auto; display: flex">
+            <div class="col-3">
+              <div class="name" style="width: 95mm; height: auto">
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; प्रमाणित किया जाता है कि श्री/कुमारी
+              </div>
+            </div>
+            <div class="col-9">
+              <input class="fs-4"
+                style="
+                  text-align: center;
+                  width: 121mm;
+                  margin-bottom: -10px;
+                  background-color: yellow;
+                  height: auto;
+                  border-top: none;
+                  border-left: none;
+                  border-right: none;
+                  border-bottom: none; 
+                  outline: none;
+                "
+                type="text"
+                value="Name"
+              />
+            </div>
+            <div class="name-space">
+            </div>
+          </div>
+  
+  
+         
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
