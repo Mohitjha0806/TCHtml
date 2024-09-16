@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      
+      @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+        width: 100%;
+        height: 100%;
+        background-color: #f3f3f3;
+      }
+      .certificate-container {
+        width: 210mm;
+        height: 297mm;
+        padding: 30px;
+        border: 2px solid #000;
+        margin: 20px auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        position: relative;
+      }
+      #imgbackLogo {
+        opacity: 0.1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      legend {
+        filter: drop-shadow(1px 1px 12px rgb(215, 215, 215));
+      }
+
+      fieldset {
+        border: 1px solid black;
+        margin-left: -0.95rem;
+        border-radius: 5px;
+        width: 100%;
+        border-color: #000000e4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      legend {
+        margin-top: 1rem;
+        border-color: #000000e4;
+        border-radius: 10px;
+        padding-left: 1rem 1rem;
+        border: 1px solid black;
+        width: 50mm;
+        font-size: 1rem;
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        color: #000000;
+      }
+
+
+     
+     table tr td {
+         border: 2px solid black;
+     }
+     th {
+         border: 2px solid black;
+     }
+
+
+
+    </style>
+    <link rel="stylesheet" href="./Assets/bootstrap.min.css" />
+
+  </head>
+  <body>
+    <div class="certificate-container p-0 m-0">
+      <img
+        id="imgbackLogo"
+        class="d-flex align-items-center justify-content-center"
+        style="
+          z-index: +1;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        "
+        src="./pngegg.png"
+        alt=""
+      />
+      <div class="container-fluid p-0 m-0">
+        <div class="row align-items-center p-0 m-0 mt-1 py-2">
+          <div class="col-2 justify-content-center align-items-center mt-1">
+            <img
+              style="width: 6.5rem"
+              height="auto"
+              src="./pngegg.png"
+              alt=""
+            />
+          </div>
+          <div class="col-8 text-center p-0 m-0">
+            <h5>Government Laxmi Mandi Higher Secondary School</h5>
+            <h5>Indore URBAN-1, Indore</h5>
+            <h5>स्कूल डाइस कोड: 20203020213</h5>
+          </div>
+          <div class="col-2 justify-content-center align-items-center mt-1">
+            <img style="width: 6.5rem" height="auto" src="./QR.png" alt="" />
+          </div>
+        </div>
+        <div class="row align-items-center p-0 m-0 justify-content-center py-4">
+          <legend style="width: auto" class="h4 py-2 px-4 text-dark">
+            शाला स्थानांतरण प्रमाण पत्र
+          </legend>
+        </div>
+        <div class="row align-items-center p-0 m-0 justify-content-center py-2 p-0 m-0 px-2">
+          <h6 class="fs-6 fw-semibold">क्रमांक: <span class="fw-normal">26/30</span></h6>
+        </div>
+        <div class="container-fluid p-0 m-0 px-2">
+         
+            <table class="table table-responsive table-bordered border border-2 border-dark text-center">
+                
+                <tr>
+                    <td colspan="2">
+                        <label class="fw-bold">प्रमाणित किया जाता है कि श्री/कुमारी</label>
+                    </td>
+                    <td colspan="2">
+                        <label>Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fw-bold">
+                        <label class="fw-semibold">पिता का नाम श्री</label>
+                    </td>
+                    <td>
+                        <label>Father Name</label>
+                    </td>
+                    <td class="fw-bold">
+                        <label>जाति</label>
+                    </td>
+                    <td>
+                        <label>Gen</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fw-bold">माता का नाम श्रीमती</td>
+                    <td>Mother's Name</td>
+                    <td class="fw-bold">मातृभाषा</td>
+                    <td>Hindi</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold">शाला का नाम (code)</td>
+                    <td colspan="3">Government Laxmi Mandi Higher Secondary School(012345678)</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold">विकास खण्ड का नाम</td>
+                    <td>Indore</td>
+                    <td class="fw-bold">जिला का नाम</td>
+                    <td>Indore</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold">में तारीख</td>
+                    <td>16/09/2024</td>
+                    <td class="fw-bold">से</td>
+                    <td>18/09/2024</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold">तक उपस्थित रहा / रही ओर अब <br>
+                        आज तारीख</td>
+                    <td>25/09/2024</td>
+                    <td colspan="2" class="fw-bold">को शाला छोड़ता/छोड़ती है</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold">शाला में प्रवेश पंजी क्रमांक</td>
+                    <td>1234567987</td>
+                    <td class="fw-bold">के अनुसर उनकी जन्मतिथि (अंको मे)</td>
+                    <td>16/09/2024</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold">शब्दो में</td>
+                    <td colspan="2">सोलह सितम्बर दो हज़ार चौबीस</td>
+                    <td class="fw-bold">है।</td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="fw-bold">Note:- उसको टीका लगाया जा चुका हैं या अन्यथा चेचक के प्रकोप से सुरक्षित है। उसके द्वारा उत्तीर्ण वार्षिक कक्षौन्नति परीक्षा इस प्रकार हैं।</td>
+                </tr>
+                <tr>
+                    <td class="fw-bold">कक्षा</td>
+                    <td>7th Class</td>
+                    <td class="fw-bold">माध्यम</td>
+                    <td>Hindi</td>
+                </tr>
+                <tr>
+                   <td class="fw-bold">वर्ष</td>
+                    <td>2024</td>
+                    <td class="fw-bold">छात्र को कक्षा</td>
+                    <td>1st Class</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="fw-bold">में प्रवेश दिया गया था
+                   उसका आचरण</td>
+                    <td>अच्छा</td>
+                    <td class="fw-bold">था ।</td>
+                </tr>
+            </table>
+        
+
+
+          <div class="row align-items-center p-0 m-0 justify-content-center py-5 mt-2">
+            <div class="container mt-2 ">
+          <div class="row flex-row mt-1 ">
+            <div class="col-6">
+              <label class="fw-semibold">कक्षाध्यापक</label> <br>
+              <br>
+              <label class="fw-semibold">दिनांक: 09/09/2024</label>
+            </div>
+            
+            <div class="col-6 text-end">
+              <label class="fw-semibold text-center">प्राचार्य / प्रधानाध्यापक</label> <br>
+              <br>
+              <label class="fw-semibold">Government Laxmi Mandi <br> Higher Secondary School <br>
+                Indore URBAN-1,
+                Indore</label>
+            </div>
+          </div>
+        </div>
+       </div>
+
+    </div>
+  </body>
+</html>
